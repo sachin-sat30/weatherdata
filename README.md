@@ -19,14 +19,13 @@ After browsing the data to understand the contents of the file. My understanding
       North West England            4392
       Northern Ireland              5940
 
-# File and the Python script breakdown:
-
+File and the Python script breakdown:
 =>CSV files (weather.20160201.csv, weather.20160301.csv): These files were saved in the local folder to read.
 =>Parquet file (output): The source files where converted from .csv to parquet and this was saved in the local folder.
 =>weather_task.py: Python script where we read the source files and convert them to the parquet format while answering the use case questions.
                    The script is written in Pyspark and Spark SQL which is used to query the data.
 
-# Output from the python file:
+Output from the python file:
 Hottest day:2016-03-17
 Temperature:15.80
 Region:Highland & Eilean Siar
